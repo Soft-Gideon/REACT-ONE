@@ -14,8 +14,12 @@ function Info() {
         </div>
         <div className="info">
           <div className="btns">
-            <button className="email-btn">Email</button>
-            <button className="link-btn">LinKedIn</button>
+            <button className="email-btn">
+              <i className="bx bxs-envelope"></i>Email
+            </button>
+            <button className="link-btn">
+              <i className="bx bxl-linkedin-square"></i>LinKedIn
+            </button>
           </div>
           <div className="content">
             <h3>About</h3>
@@ -34,7 +38,20 @@ function Info() {
             </div>
           </div>
         </div>
-        <footer></footer>
+        <footer>
+          <a>
+            <i className="bx bxl-twitter"></i>
+          </a>
+          <a>
+            <i className="bx bxl-instagram"></i>
+          </a>
+          <a>
+            <i className="bx bxl-facebook"></i>
+          </a>
+          <a>
+            <i className="bx bxl-github"></i>
+          </a>
+        </footer>
       </div>
     </div>
   );
