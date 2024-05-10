@@ -1,0 +1,96 @@
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+.container {
+  height: 870px;
+  width: 550px;
+  background-color: rgba(35, 37, 44, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.box {
+  height: 780px;
+  width: 317px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.profile {
+  text-align: center;
+}
+.profile--details h2 {
+  font-size: 25px;
+  letter-spacing: -0.5px;
+  margin-top: 20px;
+}
+.profile--details h5 {
+  font-size: 12.8px;
+  letter-spacing: 1px;
+  color: rgba(243, 191, 153, 1);
+}
+.profile--details h6 {
+  font-size: 10.24px;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+.info {
+  padding: 30px;
+}
+.img-box {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+.btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin-bottom: 25px;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.email-btn {
+}
+.link-btn {
+  background-color: rgb(80, 147, 226);
+  color: white;
+}
+.content {
+  margin-bottom: 15px;
+}
+.content h3 {
+  margin-bottom: 5px;
+}
+.content div {
+  font-size: 13px;
+}
+footer {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(22, 22, 25);
+}
